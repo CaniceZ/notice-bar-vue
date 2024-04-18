@@ -1,0 +1,29 @@
+{
+  "name": "notice-bar-vue",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node ./src/createpackage.js",
+    "preview": "vite preview"
+  },
+  "main": "./dist/notice-bar-vue.umd.js",
+  "module": "./dist/notice-bar-vue.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/notice-bar-vue.es.js",
+      "require": "./dist/notice-bar-vue.umd.js"
+    }
+  },
+  "dependencies": {
+    "notice-bar-vue": "^1.0.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

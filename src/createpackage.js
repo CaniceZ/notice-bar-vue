@@ -1,0 +1,26 @@
+import fs from 'fs'
+const packageJson = fs.readFileSync('./package.json', 'utf-8');
+const data = Object(JSON.parse(packageJson))
+// 获取版本号
+// const version = '1.0.0';
+const fileContent = `
+{
+    "name": "notice-bar-vue",
+    "version": "${data.version}",
+    "description": "基于Vue3的无线滚动通知栏组件",
+    "main": "notice-bar-vue.es.js",
+    "scripts": {
+      "test": "echo 'Error: no test specified' && exit 1"
+    },
+    "keywords": ["notice-bar","notice-bar-vue","通知栏","轮播","滚动播放"],
+    "author": "zhengchuangjun",
+    "license": "ISC"
+  }
+`;
+ 
+try {
+  fs.writeFileSync('./dist/package.json', fileContent);
+  console.log('File created and content written!');
+} catch (err) {
+  console.error('An error occurred:', err);
+}
