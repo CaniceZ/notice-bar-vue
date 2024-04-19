@@ -1,7 +1,7 @@
 {
   "name": "notice-bar-vue",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,13 +17,15 @@
     }
   },
   "dependencies": {
-    "notice-bar-vue": "^1.0.0",
+    "notice-bar-vue": "^1.0.3",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.3",
+    "vite-plugin-lib-inject-css": "^2.0.1",
     "vue-tsc": "^2.0.6"
   }
 }

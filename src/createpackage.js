@@ -13,6 +13,10 @@ const fileContent = `
       "test": "echo 'Error: no test specified' && exit 1"
     },
     "keywords": ["notice-bar","notice-bar-vue","通知栏","轮播","滚动播放"],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:CaniceZ/notice-bar-vue.git"
+    },
     "author": "zhengchuangjun",
     "license": "ISC"
   }

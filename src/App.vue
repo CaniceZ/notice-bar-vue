@@ -1,23 +1,13 @@
 <script setup lang="ts">
   import { ref} from 'vue'
-  import NoticeBar from './components/notice-bar/index.vue'
-  // import NoticeBar2 from 'notice-bar-vue'
-  // import NoticeBar2 from '../dist/notice-bar-vue.es.js'
-  import NoticeBar2 from './index.ts'
+  // import NoticeBar from './components/notice-bar/index.vue'
+  import NoticeBar from 'notice-bar-vue'
+  // import NoticeBar from '../dist/'
   const adNotice = ref()
 </script>
 
 <template>
   <div class="container">
-    122
-    <NoticeBar2>
-      <div class="item-wrap">
-        <span class="item-notice">177****2331已开通</span>
-        <span class="item-notice">189****5822已开通</span>
-        <span class="item-notice">189****2913已开通</span>
-        <span class="item-notice">177****0955已开通</span>
-      </div>
-    </NoticeBar2>
     <h2>基本用法：</h2>
     <NoticeBar>
       <div class="item-wrap">

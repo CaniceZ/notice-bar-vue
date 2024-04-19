@@ -16,6 +16,8 @@ import NoticeBar from 'notice-bar-vue'
         <span class="item-notice">177****0955已开通</span>
     </div>
 </NoticeBar>
+```
+```css
 <style scoped>
     .item-wrap{
         display: flex;
