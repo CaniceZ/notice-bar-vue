@@ -7,8 +7,8 @@ NoticeBar.install = function (Vue: any) {
 }
 
 export default NoticeBar
-declare module "vue" {
-    export interface GlobalComponents {
-        NoticeBar: typeof NoticeBar
-    }
-}
+// declare module "vue" {
+//     export interface GlobalComponents {
+//         NoticeBar: typeof NoticeBar
+//     }
+// }
