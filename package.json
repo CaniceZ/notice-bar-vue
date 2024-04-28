@@ -1,27 +1,44 @@
 {
   "name": "notice-bar-vue",
-  "private": true,
-  "version": "1.0.3",
+  "version": "1.0.8",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node ./src/createpackage.js",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "main": "./dist/notice-bar-vue.umd.js",
   "module": "./dist/notice-bar-vue.es.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/notice-bar-vue.es.js",
       "require": "./dist/notice-bar-vue.umd.js"
     }
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "keywords": [
+    "notice-bar",
+    "notice-bar-vue",
+    "通知栏",
+    "轮播",
+    "滚动播放"
+  ],
+  "description": "基于Vue3的无线滚动通知栏组件",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CaniceZ/notice-bar-vue.git"
+  },
   "dependencies": {
-    "notice-bar-vue": "^1.0.3",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.8.3",

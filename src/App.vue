@@ -1,8 +1,9 @@
 <script setup lang="ts">
   import { ref} from 'vue'
   // import NoticeBar from './components/notice-bar/index.vue'
-  import NoticeBar from 'notice-bar-vue'
-  // import NoticeBar from '../dist/'
+  // import NoticeBar from 'notice-bar-vue'
+  // import NoticeBar from '../'
+  import NoticeBar from './components/notice-bar/index'
   const adNotice = ref()
 </script>
 

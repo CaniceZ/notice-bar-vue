@@ -9,6 +9,7 @@ const fileContent = `
     "version": "${data.version}",
     "description": "基于Vue3的无线滚动通知栏组件",
     "main": "notice-bar-vue.es.js",
+    "types": "index.d.ts",
     "scripts": {
       "test": "echo 'Error: no test specified' && exit 1"
     },

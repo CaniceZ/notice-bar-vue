@@ -1,0 +1,10 @@
+.scroll{
+    width: 100%;
+    overflow: hidden;
+  }
+  .bar-wrap{
+    display: flex;
+    overflow: hidden;
+    width: max-content;
+    transition: all 0ms ease-in 0s
+  }
