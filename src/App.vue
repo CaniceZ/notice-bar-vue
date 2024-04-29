@@ -19,7 +19,7 @@
       </div>
     </NoticeBar>
     <h2>自定义宽度：</h2>
-    <NoticeBar ref="adNotice" width="500px">
+    <NoticeBar width="500px">
       <div class="item-wrap">
         <span class="item-notice">177****2331已开通</span>
         <span class="item-notice">189****5822已开通</span>
