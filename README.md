@@ -53,3 +53,5 @@ import NoticeBar from 'notice-bar-vue'
       </div>
     </NoticeBar>
 ```
+## 示例
+![示例gif](https://github.com/CaniceZ/notice-bar-react/blob/main/src/assets/demo.gif)
