@@ -36,6 +36,15 @@
         <span class="item-notice">177****0955已开通</span>
       </div>
     </NoticeBar>
+    <h2>纵向&自定义高度（默认200px）：</h2>
+    <NoticeBar direction="column" height="170px">
+      <div class="item-column-wrap">
+        <span class="item-column-notice">177****2331已开通</span>
+        <span class="item-column-notice">189****5822已开通</span>
+        <span class="item-column-notice">189****2913已开通</span>
+        <span class="item-column-notice">177****0955已开通</span>
+      </div>
+    </NoticeBar>
   </div>
 </template>
 
@@ -63,5 +72,21 @@ h2{
   background: rgba(0,0,0,.5);
   border-radius: 15px;
   margin-right: 15px;
+}
+
+.item-column-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  flex-wrap: nowrap;
+  color: #fff;
+}
+.item-column-notice{
+  padding: 0 20px;
+  background: rgba(0,0,0,.5);
+  border-radius: 15px;
+  margin-bottom: 15px;
 }
 </style>
