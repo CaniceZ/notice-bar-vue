@@ -2,6 +2,7 @@
   "name": "notice-bar-vue",
   "version": "1.1.0",
   "type": "module",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
